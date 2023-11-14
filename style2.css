@@ -1,0 +1,56 @@
+.section-portfolio > .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.main-portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+.title-portfolio{
+    color: #fff;
+    font-size: 44px;
+    padding: 10px 0px 20px 0px;
+}
+.text-portfolio{
+    font-family: 'IBM Plex Mono';
+    color: #9C9C9C;
+    font-size: 16px;
+}
+.button-portfolio{
+    width: 307.89px;
+    height: 63px;
+    border-radius: 4px;
+    border: 1px solid #62BA1B;
+    background: #3F8E00;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+    color: #fff;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+.img-portfolio{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.buttons-portfolio{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.buttons-portfolio p{
+    color: #fff;
+    margin: 0px 0px 10px 100px;
+}
+.buttons-logos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px 0px 45px;
+}
